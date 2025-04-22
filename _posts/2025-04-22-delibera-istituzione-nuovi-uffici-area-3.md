@@ -3,7 +3,7 @@ layout: atto
 title: Delibera Presidenziale n. 04/2025 – Istituzione di nuovi Uffici nell’Area 3
 dipartimento: Gabriel Jones
 tipologia: Delibera
-ufficio: Ufficio Trasparenza e Comunicazione
+ufficio: Ufficio Trasparenza
 lang: it
 link:
   - https://gabrieljones.it/tag/assets/uploads/delibera_nuovi_uffici.pdf
