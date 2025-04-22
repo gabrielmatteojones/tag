@@ -1,0 +1,26 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "/"
+public_folder: "assets"
+
+collections:
+  - name: "atti"
+    label: "Atti pubblici"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Titolo", name: "title", widget: "string" }
+      - { label: "Tipologia", name: "tipologia", widget: "string" }
+      - { label: "Ufficio", name: "ufficio", widget: "string" }
+      - { label: "Dipartimento", name: "dipartimento", widget: "string" }
+      - { label: "Lingua", name: "lang", widget: "string", default: "it" }
+      - label: "Link"
+        name: "link"
+        widget: "list"
+        fields:
+          - { label: "Nome", name: "nome", widget: "string" }
+          - { label: "URL", name: "url", widget: "string" }
+      - { label: "Contenuto", name: "body", widget: "markdown" }
