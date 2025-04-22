@@ -1,15 +1,12 @@
 ---
 layout: atto
 title: Delibera Presidenziale n. 04/2025 – Istituzione di nuovi Uffici nell’Area 3
-dipartimento: Dipartimento Finanze e Bilancio
+dipartimento: Gabriel Jones
 tipologia: Delibera
-ufficio: Ufficio Contabilità Generale
+ufficio: Ufficio Trasparenza e Comunicazione
 lang: it
 link:
-  - nome: Scarica l'atto completo
-    url: https://esempio.gov.it/atti/bilancio-2025.pdf
-  - nome: Vai all'organizzazione
-    url: https://esempio.gov.it/organizzazione/finanze
+  - https://gabrieljones.it/tag/assets/uploads/delibera_nuovi_uffici.pdf
 ---
 
 Con la Delibera Presidenziale n. 04/2025, datata 22 aprile 2025, il Presidente di Arena Giovani, Gabriel Matteo Jones, istituisce formalmente due nuovi uffici all’interno dell’Area 3 – Sviluppo Territoriale e Coordinamento Operativo, una delle aree più strategiche e dinamiche dell’organizzazione. La decisione è motivata dalla volontà di rafforzare la presenza dell’associazione sul territorio e migliorare l'efficienza delle attività ecologiche, istituzionali e organizzative.
