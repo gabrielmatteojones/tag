@@ -1,9 +1,9 @@
 backend:
   name: git-gateway
-  branch: dependabot/bundler/addressable-2.8.1
+  branch: main
 
-media_folder: "/"
-public_folder: "assets"
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
 
 collections:
   - name: "atti"
@@ -12,15 +12,18 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "atto" }
       - { label: "Titolo", name: "title", widget: "string" }
+      - { label: "Dipartimento", name: "dipartimento", widget: "string" }
       - { label: "Tipologia", name: "tipologia", widget: "string" }
       - { label: "Ufficio", name: "ufficio", widget: "string" }
-      - { label: "Dipartimento", name: "dipartimento", widget: "string" }
       - { label: "Lingua", name: "lang", widget: "string", default: "it" }
       - label: "Link"
         name: "link"
         widget: "list"
-        fields:
-          - { label: "Nome", name: "nome", widget: "string" }
-          - { label: "URL", name: "url", widget: "string" }
+        summary: "{{fields.item}}"
+        field:
+          label: "URL"
+          name: "item"
+          widget: "string"
       - { label: "Contenuto", name: "body", widget: "markdown" }
