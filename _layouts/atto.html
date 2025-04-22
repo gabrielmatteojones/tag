@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<div class="container my-5">
+  <div class="row">
+    <div class="col-12 col-lg-10 offset-lg-1">
+      <h1 class="mb-4">{{ page.title }}</h1>
+
+      <dl class="row">
+        {% if page.tipologia %}
+          <dt class="col-sm-3">Tipologia</dt>
+          <dd class="col-sm-9">{{ page.tipologia }}</dd>
+        {% endif %}
+
+        {% if page.ufficio %}
+          <dt class="col-sm-3">Ufficio</dt>
+          <dd class="col-sm-9">{{ page.ufficio }}</dd>
+        {% endif %}
+
+        {% if page.dipartimento %}
+          <dt class="col-sm-3">Dipartimento</dt>
+          <dd class="col-sm-9">{{ page.dipartimento }}</dd>
+        {% endif %}
+        
+        {% if page.link %}
+          <dt class="col-sm-3">Documenti e link utili</dt>
+          <dd class="col-sm-9">
+            <ul>
+              {% for item in page.link %}
+                <li><a href="{{ item }}" target="_blank" rel="noopener noreferrer">{{ item }}</a></li>
+              {% endfor %}
+            </ul>
+          </dd>
+        {% endif %}
+      </dl>
+
+      <hr>
+
+      <div class="atto-contenuto">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</div>
