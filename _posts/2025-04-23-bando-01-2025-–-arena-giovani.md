@@ -19,11 +19,11 @@ Tutte le persone tra i **16 e i 35 anni**, residenti o domiciliate in Italia, mo
 
 📌 **Come candidarsi?**  
 Compila il modulo su 👉 [gabrieljones.it/bandi/arenagiovani/](https://gabrieljones.it/bandi/arenagiovani/)  
-📧 **info@ag.gabrieljones.it**
+📧 **info@18f.it**
 
 ⏳ **Durata**: 6 mesi prorogabili – attività su base volontaria.
 
-📞 Per info: info@ag.gabrieljones.it
+📞 Per info: info@18f.it
 
 Unisciti a noi e diventa parte attiva del cambiamento!  
 #BandoVolontari #ArenaGiovani #PartecipazioneAttiva #Fontanafredda
