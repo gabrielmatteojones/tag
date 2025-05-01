@@ -5,6 +5,12 @@ dipartimento: Gabriel Jones Web Services
 tipologia: Documento pubblico
 ufficio: Ufficio non specificato
 lang: it
+link:
+  - https://gabrieljones.it
+  - https://accounts.gabrieljones.it
+  - https://DataWin.gabrieljones.it
+  - https://it.gabrielmatteojonesblog.it
+  - https://onlygabbyme.it
 ---
 ## Cookie Policy
 
